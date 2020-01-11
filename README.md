@@ -1,5 +1,4 @@
-# ECE 593-01: Homework #1- Exploration of
-# MATLAB Image Processing Toolbox Features
+# ECE 593-01: Homework #1- Exploration of MATLAB Image Processing Toolbox Features
 
 ```
 Kaleb Byrum
@@ -38,8 +37,7 @@ both strong and weak edges in an image. Finally, this report
 will explore the use of median and Gaussian noise filters to
 clarify images subjected to different intensities of noise.
 ```
-## II. EQUALIZING THE HISTOGRAM OF INTENSITIES
-## TO EVEN OUT IMAGE CONTRAST
+## II. EQUALIZING THE HISTOGRAM OF INTENSITIES TO EVEN OUT IMAGE CONTRAST
 
 ```
 A. Defining the Histogram of Intensities & Image Contrast
@@ -177,8 +175,7 @@ The results of this algorithm can be used in later computations
 that require the knowledge of where the edges in an image are
 located.
 ```
-## V. DETECTING MAIN AND WEAK EDGES IN AN IMAGE USING
-## THE CANNY ALGORITHM
+## V. DETECTING MAIN AND WEAK EDGES IN AN IMAGE USING THE CANNY ALGORITHM
 
 ```
 A. Introduction
@@ -217,8 +214,7 @@ more robust method of revealing all edges in an image, while
 the Roberts Cross algorithm is a good method for revealing
 only the outer borders of the main object in an image.
 ```
-## VI. FILTERING IMAGE NOISE USING MEDIAN AND GAUSSIAN
-## FILTERS
+## VI. FILTERING IMAGE NOISE USING MEDIAN AND GAUSSIAN FILTERS
 
 ```
 A. Introduction
@@ -274,7 +270,7 @@ image filter.
 Figure 15: Output of Figure 12 being subjected to a median
 image filter.
 ```
-
+```
 Figure 16: Output of Figure 13 being subjected to a median
 filter.
 
@@ -299,6 +295,7 @@ Figure 17: Output of Figure 11 being subjected to a Gaussian
 filter with 0.5 standard deviation.
 
 ```
+```
 Figure 18: Output of Figure 12 being subjected to a Gaussian
 filter with 0.5 standard deviation.
 ```
@@ -313,8 +310,9 @@ efficiency in reducing noise may also vary by the type of
 noise applied and is evidently not as efficient in removing salt
 and pepper noise compared to median filters.
 ```
+
+## VII. CONCLUSION
 ```
-VII. CONCLUSION
 In conclusion, the MATLAB Image Processing Toolbox
 includes an amass of tools to manipulate images as necessary,
 including contrast balancing, edge detection and
@@ -322,9 +320,8 @@ enhancement and noise filtering. These tools are important
 starting points for later computations that this course will
 explore.
 ```
-```
-VIII. REFERENCES
-```
+
+## VIII. REFERENCES
 ```
 [1] The MathWorks Inc., "Enhance contrast using histogram equalization -
 MATLAB histeq," The MathWorks Inc., 2019. [Online]. Available:
